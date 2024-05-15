@@ -7,12 +7,14 @@
 }
 
 .bg {
-   background-image: url(Hero\ \(1\).webp); 
+   background-image: url(Hero\ \(1\).webp);
    width: 100%;
    height: 120vh;
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size: cover;
+   position: relative;
 }
+
 
 .logo, .list, .title{
     color: white;
@@ -84,7 +86,7 @@ li {
 .bg2 {
     background-color: #a1002e;
     width: 100%;
-    height: 60vh;
+    height: 89vh;
     background-size: contain;
     margin-top: -0.8%;
     max-height: 100%;
@@ -101,23 +103,40 @@ li {
     display: flex;
     justify-content: space-between;
     padding: 40px;
+    padding-top: 15%;
     align-items: center;
  }
 
  .box1 {
-    background-color: white;
+    background-color: #ffffff33;
  }
 
  .box2 {
-    background-color: black;
+    background-color: #ffffff66;
  }
 
  .box3 {
-    background-color: white;
+    background-color: #ffffff99;
  }
 
  .box1, .box2, .box3 {
-    height: 40vh;
+    height: 35.3vh;
     width: 700px;
 
+ }
+
+ .sm1, .sm2, .sm3 {
+    padding: 5%;
+    padding-top: 1px;
+ }
+
+ .bt {
+    font-size: 85px;
+    margin-bottom: 25%;
+    color: white;
+ }
+
+ .st {
+    font-size: 40px;
+    color: white;
  }
