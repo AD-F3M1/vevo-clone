@@ -196,6 +196,11 @@ li {
     margin-top: 46px;
 }
 
+.btn2:hover, .btn2:focus, .btn2:active {
+    background: black;
+    color: white;
+}
+
 .btn-text-container2 {
     text-align: end;
     padding-top: -50px;
@@ -256,11 +261,22 @@ li {
 
 .btn3 {
     background: white;
-    width: 147px;
+    width: 250px;
     height: 34px;
     text-align: center;
     border-radius: 30px;
     cursor: pointer;
     padding-top: 14px;
     margin-top: 46px;
+}
+
+.btn3:hover, .btn3:focus, .btn3:active {
+    background: black;
+    color: white;
+}
+
+.btn3-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
 }
